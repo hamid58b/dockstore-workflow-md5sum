@@ -65,7 +65,7 @@ Or you can run it from the latest release on Dockstore:
 
 ```
 # run this from the Dockstore
-$> dockstore workflow launch --entry briandoconnor/dockstore-workflow-md5sum:1.0.0 --json Dockstore.json
+$> dockstore workflow launch --entry briandoconnor/dockstore-workflow-md5sum:1.3.0 --json Dockstore.json
 ```
 
 ## Test with travis-ci
