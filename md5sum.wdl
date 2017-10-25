@@ -13,6 +13,7 @@ task md5 {
    docker: "quay.io/briandoconnor/dockstore-tool-md5sum:1.0.4"
    cpu: 1
    memory: "512 MB"
+   disks: "local-disk 10 HDD"
  }
 }
 
