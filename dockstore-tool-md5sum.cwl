@@ -40,11 +40,15 @@ inputs:
     doc: The file that will have its md5sum calculated.
 
 outputs:
-  output_file:
+  output_file1:
     type: File
     format: http://edamontology.org/data_3671
     outputBinding:
       glob: md5sum.txt
     doc: A text file that contains a single line that is the md5sum of the input file.
-
+  
+  output_file2:
+    type: File
+    doc: Assembly statistics
+    
 baseCommand: [/bin/my_md5sum]
